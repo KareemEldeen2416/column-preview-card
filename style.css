@@ -1,0 +1,104 @@
+:root{
+--brightOrange: hsl(31, 77%, 52%);
+--darkCyan:hsl(184, 100%, 22%);
+--veryDarkCyan:hsl(179, 100%, 13%);
+--transparentWhite: hsla(0, 0%, 100%, 0.75);
+--lightGray: hsl(0, 0%, 95%);
+--fontOne: "Lexend Deca";
+--fontTwo: "Big Shoulders Display";
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+font-family: var(--fontTwo);
+font-size: 45px;
+color:var(--lightGray);
+}
+
+p{
+color:var(--transparentWhite);
+font-family: var(--fontOne);
+font-size: 15px;
+font-weight: 400;
+width: 84%;
+}
+
+button{
+margin-top:80px;
+padding: 15px 30px;
+border-radius:50px;
+border:none;
+font-family: var(--fontOne);
+font-weight: 700;
+cursor: pointer
+}
+
+
+.mainContainer{
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+height: fit-content;
+align-items: center;
+justify-content:center;
+margin-top: 8%;
+width: fit-content;
+overflow: hidden;
+border-radius: 10px;
+}
+
+.container{
+height: 400px;
+width: 250px;
+padding:50px;
+}
+
+.orange{
+background-color: var(--brightOrange);
+}
+
+.cyan{
+background-color: var(--darkCyan);
+}
+
+.darkCyan{
+background-color: var(--veryDarkCyan);
+}
+
+.one{
+color:var(--brightOrange);
+}
+.one:hover{
+color: var(--lightGray);
+background-color: var(--brightOrange);
+border: 1px solid var(--lightGray);
+}
+
+.two{
+color:var(--darkCyan);
+}
+
+.two:hover{
+color:var(--lightGray);
+background-color:var(--darkCyan);
+border:1px solid var(--lightGray);
+}
+
+.three{
+color: var(--veryDarkCyan);
+}
+
+.three:hover{
+color: var(--lightGray);
+background-color: var(--veryDarkCyan);
+border:1px solid var(--lightGray);
+}
+
+
+
+
